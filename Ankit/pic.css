@@ -1,0 +1,35 @@
+
+body{
+
+	background-size:cover;
+	background-color:grey;
+	font-family:arial;
+	
+}
+.div1{
+	border:5px solid black;
+	color:white;
+	background-color:black;
+	animation-name:move;
+	animation-duration:2s;
+	animation-iteration-count:infinite;
+}
+@keyframes move{
+	from{background-color:#98b5d8;border-radius:10px;}
+	to{background-color:#f3597b;border-radius:20px;}
+}
+img{
+height:300px;
+
+
+
+}
+
+h4{
+
+    color: blue;
+    text-align: center;
+}
+.sone{
+	width:100px;
+}

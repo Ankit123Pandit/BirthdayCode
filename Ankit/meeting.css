@@ -1,0 +1,30 @@
+body{
+	background:url('image/5.jpg') no-repeat;
+	background-size:cover;
+	
+	font-family:arial;
+	color:white;
+}
+.div2{
+	float:right;
+	color:purple;
+	background-color:white;
+	width:750px;
+    opacity:auto;
+}
+.div3{
+	background-color:tomato;
+	color:grey;
+	width:150px;
+}
+.div1{
+    background-color:tomato;
+	color:grey;
+	width:150px;
+    
+}
+h1 {
+  color: tomato;
+  background-color:rgb(128, 128, 128);
+  text-align:center;
+}

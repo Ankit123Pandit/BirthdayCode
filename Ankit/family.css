@@ -1,0 +1,21 @@
+body{
+	background:url(' image/pic1.jpg') no-repeat;
+	background-size:cover;
+	
+	font-family:arial;
+	color:white;
+}
+img{
+height:400px;
+}
+.div1{
+	border:2px solid pink;
+	width:100%;
+	float:left;
+	color:005b4f5;
+	background-color:40054bf0;
+	text-align:center;
+}
+.pics{
+	float:right;
+}

@@ -1,0 +1,31 @@
+body{
+	background: white;
+	background-size:cover;
+	
+	font-family:arial;
+	color:white;
+}
+img{
+height:400px;
+}
+.div1{
+	border:2px solid pink;
+	width:100%;
+	float:right;
+	color:black;
+	background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+	text-align:center;
+}
+.pic{
+	float:left;
+	margin-top:10px;
+	background-color:#f8e0af;
+	animation-name:move;
+	animation-duration:2s;
+	animation-iteration-count:infinite;
+	
+}
+@keyframes move{
+	from{background-color:#98b5d8;}
+	to{background-color:#f3597b;}
+}
