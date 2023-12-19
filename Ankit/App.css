@@ -21,7 +21,7 @@ h3{
 }
 nav{
 	/* background-color:white; Old code */
-	height: 100vh;
+
   display: flex;
   align-items: center;
   justify-content: center;
