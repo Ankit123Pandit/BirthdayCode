@@ -28,6 +28,15 @@ nav{
   background: #c1f7f5;
 }
 
+.nav-links{
+  display: flex;
+  align-items: center;
+  background: #fff;
+  padding: 20px 15px;
+  border-radius: 12px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+}
+
 
 ul{
 	margin:0px;
