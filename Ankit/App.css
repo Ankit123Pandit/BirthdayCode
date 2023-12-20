@@ -13,10 +13,14 @@ header{
 } 
 h1 {
 	
-  color:  black;
+/*   color:  black;
   background-color: red;
   text-align:center;
-  margin-top:20px; 
+  margin-top:20px;  */
+
+	 background: #fff;
+  padding: 20px 15px;
+  border-radius: 12px;
 
 	
   
