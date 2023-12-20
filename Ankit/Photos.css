@@ -1,17 +1,5 @@
 
-body{
-	  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: #c1f7f5;
-}
-/* .div2{
-	float:right;
-	color:purple;
-	background-color:white;
-	width:750px;
-    opacity:auto;
-} */
+
 .div3{
 	 display: flex;
   align-items: center;
@@ -23,20 +11,7 @@ body{
   bottom: 0px;
  
 	
-}
-.div1{
-    background-color:tomato;
-	color:grey;
-	width:150px;
-    
-}
-h1 {
-  color: green;
-  background-color:rgb(128, 128, 128);
-  text-align:center;
-  
-  
-}
+
 
 /* ------------------ */
 
