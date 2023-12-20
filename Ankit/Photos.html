@@ -12,30 +12,7 @@
 </head>
 <body>
 
-<!-- 	------------------JS code for slide show ------ -->
-	<script>
-	let slideIndex = 0;
-showSlides();
 
-function showSlides() {
-  let i;
-  let slides = document.getElementsByClassName("mySlides");
-  let dots = document.getElementsByClassName("dot");
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";  
-  }
-  slideIndex++;
-  if (slideIndex > slides.length) {slideIndex = 1}    
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " active";
-  setTimeout(showSlides, 2000); // Change image every 2 seconds
-}
-	</script>
-
-<!-- 	------------------JS code for slide show end ------ -->
 	  
 <div class="div1">
 		<h4> Thsi section is for slide show </h4>
@@ -80,6 +57,30 @@ function showSlides() {
  <a href="New folder/DSC_8106.JPG"  target="_self"><img class="unit" src="New folder/DSC_8106.JPG"></img></a>
 
 </div>
+	<!-- 	------------------JS code for slide show ------ -->
+	<script>
+	let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+	</script>
+
+<!-- 	------------------JS code for slide show end ------ -->
 
 <div class="div3">
  <h3><a href="App.html"> BACK TO HOME</a>
