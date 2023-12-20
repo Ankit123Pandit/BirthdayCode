@@ -7,20 +7,22 @@ body{
 header{
 	/*border:2px solid blue;*/
 	height:100px;
-	
-} 
-h1 {
-	
-  /*color:  white;
-  background-color: red;
-  text-align:center;
-  margin-top:20px; */
 
 	
-  display: flex;
+	display: flex;
   align-items: center;
   justify-content: center;
   background: #c1f7f5;
+} 
+h1 {
+	
+  color:  black;
+  background-color: red;
+  text-align:center;
+  margin-top:20px; 
+
+	
+  
 
 	
 }
