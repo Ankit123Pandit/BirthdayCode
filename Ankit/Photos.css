@@ -1,1 +1,37 @@
 
+body{
+	  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #c1f7f5;
+}
+/* .div2{
+	float:right;
+	color:purple;
+	background-color:white;
+	width:750px;
+    opacity:auto;
+} */
+.div3{
+	 display: flex;
+  align-items: center;
+  background: #fff;
+  padding: 1px 11px;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+ 
+	
+}
+.div1{
+    background-color:tomato;
+	color:grey;
+	width:150px;
+    
+}
+h1 {
+  color: green;
+  background-color:rgb(128, 128, 128);
+  text-align:center;
+  
+  
+}
