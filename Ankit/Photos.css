@@ -20,7 +20,8 @@
 body{
 
 	background-size:cover;
-	background-color:grey;
+/* 	background-color:grey; */
+	 background: #c1f7f5;
 	font-family:arial;
 	
 }
