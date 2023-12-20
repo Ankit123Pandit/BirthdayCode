@@ -10,10 +10,19 @@ header{
 	
 } 
 h1 {
-  color:  white;
+	
+  /*color:  white;
   background-color: red;
   text-align:center;
-  margin-top:20px;
+  margin-top:20px; */
+
+	
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #c1f7f5;
+
+	
 }
 h3{
 	margin-top:0px;
